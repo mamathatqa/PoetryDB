@@ -32,6 +32,7 @@ Before running the tests, ensure the following are installed on your system:
    pip install -r requirements.txt
    ```
    *(Ensure a `requirements.txt` file is available containing necessary dependencies like `pytest`, `dotenv`, `requests`.)*
+   Here, make sure that versions are included in requirements.txt file.
 
 ## Running the Tests
 
