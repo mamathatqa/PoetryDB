@@ -1,0 +1,12 @@
+[
+    {
+        "name":"invalid_author_Name",
+        "url": "/author/testing/author",
+        "output": {"status": 404, "reason": "Not found"}
+    },
+    {
+        "name":"invalid_title_Name",
+         "url":"/title/Ozymandias/1",
+        "output": {"status": "405" , "reason": "1 output field not available. Only author, title, lines, and linecount allowed."}
+    }
+]
