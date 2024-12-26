@@ -19,6 +19,7 @@ Before running the tests, ensure the following are installed on your system:
 2. **pytest**: Install using `pip install pytest`.
 3. **dotenv**: Install using `pip install python-dotenv`.
 4. **requests**: Install using `pip install requests`.
+5. **pytest-html**: Install using `pip install pytest-html`.
 
 ## Installation
 
@@ -46,6 +47,10 @@ To execute the test cases, use the following commands:
 2. Debug failed tests by including print statements and using the `-s` flag:
    ```bash
    pytest -s
+   ```
+3. Run all tests and generate html report:
+   ```bash
+   pytest --html=report.html
    ```
 
 ## Test Cases
